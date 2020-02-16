@@ -1,68 +1,18 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Art Marks
 
-## Available Scripts
+An app to help organize and categorize bookmarks with an easier to navigate UI! Add extra details to each book mark. Is it an article? Video? Tutorial? For the time being only one category is available but stretch goals would be to add extra functionality to create and list multiple tabs for different topics (**examples:** cooking, health, school).
 
-In the project directory, you can run:
+### Current Examples
+A small sampling from my own massive and terribly disorganized bookmarks in which I forget 75% of what I bookmark anyway. I decided to simply list out some art programs and courses I find interesting and plan to try out some time before I grow old and die.
 
-### `yarn start`
+### Stretch Goals
+As mentioned above, have functionality to add extra categories for different topics and areas of interest. Like all the interesting coding articles and tutorials I also forget I keep saving. Recipes I never wind up touching and websites I find inspiring in one way or another
+## Technologies Used
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- React
+- Ruby on Rails
+- PostGresSQL
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Challenges
+For the first three or so days I attempted to use a headless CMS calling CosmicJS as a way to try something new. Unfortunately I couldn't quite get it to correctly connect it through fetch and had to ultimately scrap it for the time being. In the future when I get a handle on it I plan on returning to impliment it.
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
