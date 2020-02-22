@@ -6,7 +6,7 @@ class Entries extends Component {
         let handleEdit =  this.props.handleEdit;
         let handleDestroy = this.props.handleDestroy;
         return (
-            <ul className="entries">
+         <ul className="entries">
             {entries.map((site, i) => {
                 return (
                     <li key={site.id}>

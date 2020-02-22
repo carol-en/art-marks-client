@@ -116,7 +116,7 @@ class Bookmarks extends Component {
         })
         .then(updatedMark => updatedMark.json())
         .then(jMark => {
-                fetch("http://localhost:3000/my_bookmarks")
+                fetch("http://localhost:3000/my_bookmarks/")
                     .then(updatedMark => updatedMark.json())
                     .then(JupdatedMark => {
                         this.setState({

@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import './App.css';
 import Bookmarks from "./components/Bookmarks.js";
 
 class App extends Component {
