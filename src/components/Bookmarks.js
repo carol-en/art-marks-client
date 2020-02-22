@@ -106,7 +106,7 @@ class Bookmarks extends Component {
         event.preventDefault();
         const id = event.target.id.value;
 
-        fetch(`https://art-marks-server.herokuapp.com/my_bookmarks${id}`, {
+        fetch(`https://art-marks-server.herokuapp.com/my_bookmarks/${id}`, {
             body: JSON.stringify(this.state.formInputs),
             method: "PUT",
             headers: {
