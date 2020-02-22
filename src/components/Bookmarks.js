@@ -27,7 +27,7 @@ class Bookmarks extends Component {
     }
 
     prepData = () => {
-        fetch("http://localhost:3000/my_bookmarks")
+        fetch("https://art-marks-server.herokuapp.com/my_bookmarks")
             .then(data => data.json())
             .then(Jdata => this.setState({ sites: Jdata }))
         .catch(error => console.log(error));
@@ -43,7 +43,7 @@ class Bookmarks extends Component {
     handleSubmit = (event) => {
         event.preventDefault();
         
-        fetch("http://localhost:3000/my_bookmarks", {
+        fetch("https://art-marks-server.herokuapp.com/my_bookmarks", {
                 body: JSON.stringify(this.state.formInputs),
                 method: "POST",
                 headers: {
@@ -106,7 +106,7 @@ class Bookmarks extends Component {
         event.preventDefault();
         const id = event.target.id.value;
 
-        fetch(`http://localhost:3000/my_bookmarks/${id}`, {
+        fetch(`https://art-marks-server.herokuapp.com/my_bookmarks${id}`, {
             body: JSON.stringify(this.state.formInputs),
             method: "PUT",
             headers: {
@@ -116,7 +116,7 @@ class Bookmarks extends Component {
         })
         .then(updatedMark => updatedMark.json())
         .then(jMark => {
-                fetch("http://localhost:3000/my_bookmarks/")
+                fetch("https://art-marks-server.herokuapp.com/my_bookmarks/")
                     .then(updatedMark => updatedMark.json())
                     .then(JupdatedMark => {
                         this.setState({
@@ -138,7 +138,7 @@ class Bookmarks extends Component {
 
     handleDestroy = (entry, index) => {
         const id = entry.id;
-        fetch(`http://localhost:3000/my_bookmarks/${id}`, 
+        fetch(`https://art-marks-server.herokuapp.com/my_bookmarks/${id}`, 
             {
                 method: "DELETE"
             })
