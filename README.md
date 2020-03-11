@@ -3,6 +3,7 @@
 An app to help organize and categorize bookmarks with an easier to navigate UI! Add extra details to each book mark. Is it an article? Video? Tutorial? For the time being only one category is available but stretch goals would be to add extra functionality to create and list multiple tabs for different topics (**examples:** cooking, health, school).
 
 ### [Back End](https://github.com/carol-en/art-marks-app-backend-api)
+### [Open app](https://art-marks-client.herokuapp.com/)
 
 ### Current Examples
 A small sampling from my own massive and terribly disorganized bookmarks in which I forget 75% of what I bookmark anyway. I decided to simply list out some art programs and courses I find interesting and plan to try out some time before I grow old and die.
